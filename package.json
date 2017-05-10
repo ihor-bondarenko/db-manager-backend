@@ -1,0 +1,19 @@
+{
+  "name": "db-manager-backend",
+  "version": "0.0.1",
+  "description": "Backend for DB manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_dist": ""
+  },
+  "author": "Ihor Bondarenko",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {}
+}
