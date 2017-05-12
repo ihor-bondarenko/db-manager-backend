@@ -86,7 +86,8 @@ apiRoutes.post('/authenticate', function(req, res) {
                 res.json({
                     success: true,
                     message: 'New token',
-                    token: token
+                    token: token,
+                    user: {"id":user._id,"name": user.name, "admin":user.admin}
                 });
             }
 
